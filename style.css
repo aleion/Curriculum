@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 100%;
+    font-family: 'roboto', sans-serif;
+}
+#cuerpo{
+    position: relative; 
+}
+.imagen{
+    position: relative;
+    top:106px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    border: 7px solid#dbdbdb;
+    z-index: 5;
+    text-transform: uppercase;
+}.columnas{
+    display: table
+}
+.contenedor{
+    text-align: center;
+    padding-top: 145px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: Auto;
+    background-color: moccasin;
+}
+.color_red{
+    color: orangered;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 19px;
+}
+h2{
+    color:orangered;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.left{
+    background-color: moccasin;
+    float: left;
+    width: 60%;
+    padding: 2%;
+    text-align: left;
+}
+
+.right{
+    background-color: moccasin;
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: left;
+    padding: 0 2%;
+}
+p{
+    font-size: 14px;
+}
+h3{
+    font-size: 15px;
+}
+.box{
+    width: 100%;
+    height: auto;
+}
+.edu1{
+    position: relative;
+    padding: 10px 20px;
+    width:100%;
+    height: 100px;
+    margin: 2px;
+    
+}
+.edu1 h3{
+    margin-top: 5px;
+    float: left;    
+}
+.clip{
+    display: inline-block;
+    background-color: #dbdbdb;
+    width: 90%;
+    position: absolute;
+    height: auto;
+    padding: 20px 30px;
+    clip-path: polygon(3% 0, 100% 0%, 100% 100%, 3% 100%, 3% 33%, 0 23%, 3% 12%);
+}
+.edu2{
+    position: relative;
+    padding: 10px 20px;
+    width:100%;
+    height: 100px;
+}
+.edu2 h3{
+    margin-top: 12px;
+    float: left;    
+}
+.empresa1{
+    width: 30%;
+    height: 100px;
+    float: left;
+    }
+.empresa1 p{
+    color:grey;
+}
+.cargo{
+    width: 70%;
+    float: left;
+    height: 100px;
+}
+li{
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+.ul-rss{
+    margin-left: 20px;
+    height: auto;
+    color: grey;
+    padding-bottom: 20px;
+}
+.ul-rss strong{
+    color: black;
+}
+.skills{
+background-color: red;
+color: white;
+padding: 3px;
+margin: 5px 0;
+text-transform: uppercase;
+}
+.skill-1{
+    width: 99%;
+}
+.skill-2{
+    width: 36%;
+}
+.skill-3{
+    width: 60%;
+}
+.skill-4{
+    width: 90%;
+}
+
+.ul_idioma span{
+    color: gray;
+    float: right;
+}
+.rojas{
+    color: red;
+}
+.hobbies_box{
+    position: relative;
+    display: inline;
+    padding: 5px 10px;
+    background-color: rgb(131, 106, 106);
+    border-radius: 1px;
+    color: white;
+}
+.footer{
+    background-color: 
+    moccasin;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+hr{
+     width: 90%;
+    height: 3px;
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
+}
+
+
+@media (max-width: 650px){
+    .right{
+        clear: both;
+    }
+    .contenedor{
+        width: 95%;
+        
+       
+    }
+    
+}
